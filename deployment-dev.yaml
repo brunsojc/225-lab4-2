@@ -10,7 +10,7 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    path:  /srv/nfs/brunsojc         #your MiamiID
+    path:  /srv/nfs/brunsojc       
     server: 10.48.10.140
   persistentVolumeReclaimPolicy: Retain
 ---
